@@ -1,0 +1,167 @@
+/*CLASES REUTILIZABLES*/
+/* { LISTO
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after { LISTO
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { LISTO
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img { LISTO
+  vertical-align: middle;
+}
+
+.container { LISTO
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47; LISTO
+  text-decoration: none;
+}
+
+a:hover { LISTO
+  color: #E95853;
+}
+
+.text-uppercase { LISTO
+  text-transform: uppercase;
+}
+*/
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif; 
+  background-color: #ffffff;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  padding: 15px 80px;
+  overflow: auto;
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.logo{
+  width: 50px;
+  float: right;
+}
+
+/*aca termina el menu*/
+
+#part1{
+  box-sizing: border-box;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+  background-image: url(assets/images/bg-home.jpg);
+  height: 519px;
+  padding: 30px;
+}
+
+h1{
+  font-size: 48px;
+}
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.boton{
+  display: inline-block;
+  font-weight: 500;
+  margin-left: 0px;
+  text-transform: uppercase;
+
+}
+
+#services{
+  background-color: #F78181;
+  text-align: center;
+  margin-top: -20px;
+  color: #ffffff;
+}
