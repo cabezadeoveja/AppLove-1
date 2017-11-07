@@ -162,6 +162,52 @@ h1{
 #services{
   background-color: #F78181;
   text-align: center;
-  margin-top: -20px;
+  padding: 50px 0px 0px 0px;
   color: #ffffff;
+}
+
+h5{
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+h6{
+  line-height: 2px;
+
+}
+.servicesUCD{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+  padding-bottom: 50px;
+}
+
+.servicio1, .servicio2, .servicio3{
+  width: 200px;
+}
+
+#work{
+  background-color: #ffffff;
+  text-align: center;
+  color: black;
+  padding: 50px 0px 0px 0px;
+}
+
+.hero{
+  width: 80%;
+  padding: 20px 0px 20px 0px;
+}
+
+
+.columnas-imag{
+  width: 300px;
+  padding: 30px;
+}
+
+.final{
+  display: inline-block;
+}
+
+footer{
+  background-color: #373b47;
 }
